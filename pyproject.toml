@@ -1,0 +1,19 @@
+[project]
+name = "agenthub"
+version = "0.1.0"
+description = "Central de agentes servida pelo AgentOS do Agno."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno[os]==3.1.11",
+    "ddgs==9.16.1",
+    "duckduckgo-search==8.1.1",
+    "fastapi==0.162.0",
+    "google-genai==2.33.0",
+    "pypdf>=6.21.4",
+    "python-dotenv>=1.0.0",
+    "python-multipart>=0.0.33",
+    "tavily-python>=0.8.5",
+    "truststore==0.10.5",
+    "uvicorn>=0.54.0",
+]
